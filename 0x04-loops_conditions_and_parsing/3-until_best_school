@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # A program that prints Best School 10 times using until loop
 
-i=1
+num=1
 
-until [ $i -gt 10 ]
+until [ $num -gt 10 ]
 do
-	echo "Best School"
-	((number_count++))
+    echo "Best School"
+    ((num++))
 done
