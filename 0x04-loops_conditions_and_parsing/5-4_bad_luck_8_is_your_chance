@@ -6,12 +6,12 @@ while [ $num -lt 10 ]
 do
 	if [ $num -eq 4 ]
 	then
-		echo "bad luck"
+	    echo "bad luck"
 	elif [ $num -eq 8 ]
 	then
-		echo "good luck"
+	    echo "good luck"
 	else
-		echo"Best School"
+       	    echo"Best School"
 	fi
 	((num++))
 done
