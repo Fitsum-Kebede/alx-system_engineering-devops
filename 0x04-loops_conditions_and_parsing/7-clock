@@ -12,5 +12,5 @@ do
     echo "$minute"
     (( minute++ ))
   done
-  (( numb_of_hr++ ))
+  (( num_of_hr++ ))
 done
