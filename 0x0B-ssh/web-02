@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# A script that connects to a server using ssh
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/school
+
+ssh ubuntu@18.207.112.74
